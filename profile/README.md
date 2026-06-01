@@ -10,18 +10,18 @@ Separate any song into vocals, drums, bass, piano, guitar, and other stems — o
 
 ## Open-source packages
 
-| Package | Install | What it does |
-|---------|---------|--------------|
-| [stemsplit-mcp](https://github.com/StemSplit/stemsplit-mcp) | `npx -y stemsplit-mcp` | MCP server — stem separation and voice cleaning inside Claude Desktop, Cursor, Cline, Windsurf, Zed |
-| [n8n-nodes-stemsplit](https://github.com/StemSplit/n8n-stemsplit) | n8n Community Nodes | n8n community node — stem separation and voice cleaning in workflow automations |
-| [stemsplit-python](https://github.com/StemSplit/stemsplit-python) | `pip install stemsplit-python` | Python SDK for the StemSplit API |
-| [stemsplit-cli](https://github.com/StemSplit/stemsplit-cli) | `brew install StemSplit/tap/stemsplit` | Command-line tool (Go) — separate stems from the terminal |
-| [demucs-onnx](https://github.com/StemSplit/demucs-onnx) | `pip install demucs-onnx` | HTDemucs exported to ONNX — run locally without PyTorch |
-| [homebrew-tap](https://github.com/StemSplit/homebrew-tap) | Homebrew tap | Homebrew formulas for StemSplit tools |
+| Package | Install | What it does | Docs |
+|---------|---------|--------------|------|
+| [stemsplit-mcp](https://github.com/StemSplit/stemsplit-mcp) | `npx -y stemsplit-mcp` | MCP server — stem separation and voice cleaning inside Claude Desktop, Cursor, Cline, Windsurf, Zed | [Guide](https://stemsplit.io/en/developers/guides/mcp) |
+| [n8n-nodes-stemsplit](https://github.com/StemSplit/n8n-stemsplit) | n8n Community Nodes | n8n community node — stem separation and voice cleaning in workflow automations | [Guide](https://stemsplit.io/en/developers/guides/n8n) |
+| [stemsplit-python](https://github.com/StemSplit/stemsplit-python) | `pip install stemsplit-python` | Python SDK for the StemSplit API | [Guide](https://stemsplit.io/en/developers/guides/python) |
+| [stemsplit-cli](https://github.com/StemSplit/stemsplit-cli) | `brew install StemSplit/tap/stemsplit` | Command-line tool (Go) — separate stems from the terminal | [Guide](https://stemsplit.io/en/developers/guides/cli) |
+| [demucs-onnx](https://github.com/StemSplit/demucs-onnx) | `pip install demucs-onnx` | HTDemucs exported to ONNX — run locally without PyTorch | [API reference](https://stemsplit.io/en/developers/reference) |
+| [homebrew-tap](https://github.com/StemSplit/homebrew-tap) | Homebrew tap | Homebrew formulas for StemSplit tools | [Guide](https://stemsplit.io/en/developers/guides/cli) |
 
 ## Quick start
 
-**API key** → [stemsplit.io/app/settings/api](https://stemsplit.io/app/settings/api)
+**API key** → [stemsplit.io/app/settings/api](https://stemsplit.io/app/settings/api) &nbsp;·&nbsp; **All guides** → [stemsplit.io/en/developers/guides](https://stemsplit.io/en/developers/guides)
 
 ```bash
 # Separate stems from the CLI
