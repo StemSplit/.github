@@ -19,6 +19,7 @@ Separate any song into vocals, drums, bass, piano, guitar, and other stems — o
 | [stemsplit-cli](https://github.com/StemSplit/stemsplit-cli) | `brew install StemSplit/tap/stemsplit` | Command-line tool (Go) — separate stems from the terminal | [Guide](https://stemsplit.io/en/developers/guides/cli) |
 | [demucs-onnx](https://github.com/StemSplit/demucs-onnx) | `pip install demucs-onnx` | HTDemucs exported to ONNX — run inference locally without PyTorch | [Docs](https://stemsplit.io/en/developers/reference) |
 | [homebrew-tap](https://github.com/StemSplit/homebrew-tap) | Homebrew tap | Homebrew formulas for StemSplit tools | [Guide](https://stemsplit.io/en/developers/guides/cli) |
+| [stemsplit-github-action](https://github.com/StemSplit/stemsplit-github-action) | `uses: StemSplit/stemsplit-github-action@v0.1.0` | **GitHub Action** — stem separation from public audio URLs in CI/CD workflows | [Guide](https://stemsplit.io/en/developers/guides/github-actions) |
 
 ## Quick start
 
